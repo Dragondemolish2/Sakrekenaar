@@ -14,5 +14,5 @@ while True:  # while true creates a infinite loop so you can keep inputing diffi
     try:
         result = eval(calculation)
         print("Result:", result)
-    except Exception as e:
+    except Exception as error:
         print("Invalid input. Please try again.")
